@@ -1,0 +1,21 @@
+
+# Exclude original raw datasets
+Raw_data/
+
+# Exclude exported raw data files
+SQL_Exports/*.tsv
+SQL_Exports/*.csv
+
+# Exclude temporary Excel and Office files
+~$*.xlsx
+~$*.xlsm
+~$*.xlsb
+*.tmp
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+
+# Exclude system files
+.DS_Store
+Thumbs.db
